@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.Windows.WinmdGenerator/0.63.31-preview">
+    <PropertyGroup>
+        <OutputWinmd>../.windows/winmd/Microsoft.Win32.Graphics.Direct3D.Legacy.winmd</OutputWinmd>
+        <WinmdVersion>255.255.255.255</WinmdVersion>
+        <LegacyRoot>..\.direct3d\</LegacyRoot>
+        <LegacyIncRoot>$(LegacyRoot)\include</LegacyIncRoot>
+        <ExcludeFromCrossarch>Microsoft.Win32.Graphics.Direct3D.Legacy</ExcludeFromCrossarch>
+        <AdditionalIncludes>$(LegacyIncRoot)</AdditionalIncludes>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <Headers Include="$(LegacyIncRoot)\d3d.h;..." />
+        <Partition Include="main.cpp" >
+            <TraverseFiles>@(Headers)</TraverseFiles>
+            <Namespace>Microsoft.Win32.Graphics.Direct3D.Legacy</Namespace>
+        </Partition>
+    </ItemGroup>
+</Project>

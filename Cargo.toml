@@ -1,0 +1,21 @@
+[package]
+name = "windows_legacy_direct3d"
+version = "1.0.0"
+edition = "2021"
+
+[build-dependencies.windows-bindgen]
+version = "0.61.1"
+
+[dependencies.windows]
+version = "0.61.1"
+features = [
+    "Win32_Graphics_Direct3D",
+    "Win32_Graphics_Direct3D9",
+    "Win32_Graphics_DirectDraw",
+    "Win32_Foundation",
+    "Win32_System_SystemServices"
+]
+
+[dependencies]
+windows-core = "0.61.2"
+windows-numerics = "0.2.0"
