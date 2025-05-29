@@ -1,5 +1,5 @@
 # Windows Legacy Direct3D API Bindings
 
-Rust bindings for Legacy Direct3D Apis that are not included in the [windows](https://crates.io/crates/windows) crate.
+Rust bindings for Legacy Direct3D APIs that are not included in the [windows](https://crates.io/crates/windows) crate.
 
 Includes Types, Interfaces, Functions, etc. from the `d3d.h` Header.

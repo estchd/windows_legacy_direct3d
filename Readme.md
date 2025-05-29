@@ -1,6 +1,6 @@
 # Windows Legacy Direct3D API Bindings
 
-Metadata and Rust bindings for Legacy Direct3D Apis that are not included in the [win32metadata](https://github.com/microsoft/win32metadata) metadata package.
+Metadata and Rust bindings for Legacy Direct3D APIs that are not included in the [win32metadata](https://github.com/microsoft/win32metadata) metadata package.
 
 Includes Types, Interfaces, Functions, etc. from the `d3d.h` Header. 
 

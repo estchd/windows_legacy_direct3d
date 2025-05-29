@@ -1,7 +1,12 @@
 [package]
 name = "windows_legacy_direct3d"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
+description = "Rust bindings for legacy Direct3D APIs"
+readme = "src/Readme.md"
+repository = "https://github.com/estchd/windows_legacy_direct3d"
+license-file = "LICENSE"
+build = "build.rs"
 
 [build-dependencies.windows-bindgen]
 version = "0.61.1"
