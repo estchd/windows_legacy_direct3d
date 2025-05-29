@@ -7,9 +7,6 @@ readme = "src/Readme.md"
 repository = "https://github.com/estchd/windows_legacy_direct3d"
 license = "MIT"
 
-[target.'cfg(windows)'.build-dependencies.windows-bindgen]
-version = "0.61.1"
-
 [target.'cfg(windows)'.dependencies.windows]
 version = "0.61.1"
 features = [
