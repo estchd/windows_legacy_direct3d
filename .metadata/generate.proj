@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.Windows.WinmdGenerator/0.63.31-preview">
     <PropertyGroup>
         <OutputWinmd>../.windows/winmd/Microsoft.Win32.Graphics.Direct3D.Legacy.winmd</OutputWinmd>
-        <WinmdVersion>255.255.255.255</WinmdVersion>
+        <WinmdVersion>1.0.0.0</WinmdVersion>
         <LegacyRoot>..\.direct3d\</LegacyRoot>
         <LegacyIncRoot>$(LegacyRoot)\include</LegacyIncRoot>
         <ExcludeFromCrossarch>Microsoft.Win32.Graphics.Direct3D.Legacy</ExcludeFromCrossarch>
