@@ -1,6 +1,6 @@
 [package]
 name = "windows_legacy_direct3d"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 description = "Rust bindings for legacy Direct3D APIs"
 readme = "src/Readme.md"
@@ -24,3 +24,6 @@ features = [
 [target.'cfg(windows)'.dependencies]
 windows-core = "0.61.2"
 windows-numerics = "0.2.0"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-pc-windows-msvc"]
